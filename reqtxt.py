@@ -13,6 +13,8 @@ assert "<20.4.5||>=20.4.7,>=20.4.3" == r.specifier, r.specifier
 # defaults to *
 assert "1" in Requirement("dummy").specifier
 
+assert "1.1" in Requirement("dummy>1,<1.2").specifier
+
 try:
     # ^ is not supported
     "1.2.3" in Requirement("dummy^1.2.1").specifier

@@ -7,7 +7,7 @@ name = "pypi"
 foursquare = "==1!2016.9.12"
 packaging = "*"
 requests = ">=2.0<2.1.1.23.123.1."
-poetry = "*"
+poetry = "==1.2.0b1"
 
 [dev-packages]
 

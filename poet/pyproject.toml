@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poet"
+version = "0.1.0"
+description = ""
+authors = ["Jake Coffman <jake@jakecoffman.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "1.2.0b1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
